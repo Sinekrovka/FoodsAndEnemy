@@ -27,14 +27,28 @@
           <e p="Descriptors" t="Include">
             <e p="EnemiesDescriptor.xml" t="Include" />
             <e p="FoodDescriptor.xml" t="Include" />
-            <e p="LevelDescriptor.xml" t="Include" />
+            <e p="LevelTest.xml" t="Include" />
+            <e p="TileDescriptor.xml" t="Include" />
           </e>
         </e>
         <e p="Scripts" t="Include">
           <e p="Core" t="Include">
+            <e p="Descriptors" t="Include">
+              <e p="EnemiesDescriptor.cs" t="Include" />
+              <e p="FoodDescriptor.cs" t="Include" />
+              <e p="LevelDescriptor.cs" t="Include" />
+            </e>
+            <e p="Models" t="Include">
+              <e p="EnemyModel.cs" t="Include" />
+              <e p="FoodModel.cs" t="Include" />
+              <e p="TileModel.cs" t="Include" />
+            </e>
             <e p="Service" t="Include">
               <e p="LevelGenerator.cs" t="Include" />
             </e>
+          </e>
+          <e p="Mono" t="Include">
+            <e p="GameBuilder.cs" t="Include" />
           </e>
         </e>
         <e p="TopDown 2D RPG BE3" t="Include">

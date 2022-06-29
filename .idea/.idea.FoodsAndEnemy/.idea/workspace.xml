@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c2a99ee-b1ee-4a1d-b5dc-1dd3c341f3ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.FoodsAndEnemy/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.FoodsAndEnemy/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.FoodsAndEnemy/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.FoodsAndEnemy/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Descriptors/EnemiesDescriptor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Descriptors/EnemiesDescriptor.xml.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Descriptors/FoodDescriptor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Descriptors/FoodDescriptor.xml.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Descriptors/LevelDescriptor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/GiveEatSound.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/GiveEatSound.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/TouchEnemySound.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/TouchEnemySound.wav.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Descriptors/LevelTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Descriptors/TileDescriptor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Descriptors/TileDescriptor.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FoodsAndEnemy/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FoodsAndEnemy/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FoodsAndEnemy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FoodsAndEnemy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Descriptors/FoodDescriptor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Descriptors/FoodDescriptor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Descriptors/LevelDescriptor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Descriptors/LevelDescriptor.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Descriptors/LevelTest.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Service/LevelGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Service/LevelGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sunnyland/artwork/Sprites/Items/cherry/cherry-1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sunnyland/artwork/Sprites/Items/cherry/cherry-1.png.meta" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,30 +25,122 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Core/Service/LevelGenerator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="340">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding>
-                <marker date="1656484647179" expanded="false" signature="6:78" ph="..." />
-                <marker date="1656484647179" expanded="true" signature="107:116" ph="{...}" />
+                <marker date="1656525114444" expanded="false" signature="6:78" ph="..." />
+                <marker date="1656525114444" expanded="true" signature="107:633" ph="{...}" />
+                <marker date="1656525114444" expanded="true" signature="272:321" ph="{...}" />
+                <marker date="1656525114444" expanded="true" signature="367:631" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mono/GameBuilder.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <marker date="1656525114488" expanded="false" signature="6:78" ph="..." />
+                <marker date="1656525114488" expanded="true" signature="120:285" ph="{...}" />
+                <marker date="1656525114488" expanded="true" signature="191:283" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Resources/Descriptors/LevelDescriptor.xml">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Core/Models/EnemyModel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+            <state relative-caret-position="323">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <marker date="1656524662938" expanded="false" signature="6:78" ph="..." />
+                <marker date="1656524662938" expanded="true" signature="103:439" ph="{...}" />
+                <marker date="1656524662938" expanded="true" signature="200:268" ph="{...}" />
+                <marker date="1656524662938" expanded="true" signature="292:358" ph="{...}" />
+                <marker date="1656524662938" expanded="true" signature="377:437" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Resources/Descriptors/FoodDescriptor.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Core/Models/FoodModel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+            <state relative-caret-position="119">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <marker date="1656524635395" expanded="false" signature="6:78" ph="..." />
+                <marker date="1656524635395" expanded="true" signature="102:354" ph="{...}" />
+                <marker date="1656524635395" expanded="true" signature="182:252" ph="{...}" />
+                <marker date="1656524635395" expanded="true" signature="278:352" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Core/Models/TileModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding>
+                <marker date="1656524677925" expanded="false" signature="6:78" ph="..." />
+                <marker date="1656524677925" expanded="true" signature="102:300" ph="{...}" />
+                <marker date="1656524677925" expanded="true" signature="129:179" ph="{...}" />
+                <marker date="1656524677925" expanded="true" signature="234:298" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Core/Descriptors/LevelDescriptor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <marker date="1656523693211" expanded="true" signature="28:76" ph="{...}" />
+                <marker date="1656523693211" expanded="true" signature="53:74" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Core/Descriptors/FoodDescriptor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <folding>
+                <marker date="1656523693093" expanded="true" signature="27:75" ph="{...}" />
+                <marker date="1656523693093" expanded="true" signature="52:73" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Core/Descriptors/EnemiesDescriptor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="5" selection-end-column="5" />
+              <folding>
+                <marker date="1656523693161" expanded="true" signature="30:78" ph="{...}" />
+                <marker date="1656523693161" expanded="true" signature="55:76" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Resources/Descriptors/LevelTest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -70,22 +160,37 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Descriptors/FoodDescriptor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Descriptors/EnemiesDescriptor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Service/LevelGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Descriptors/LevelDescriptor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Models/FoodModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Models/TileModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mono/GameBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Models/EnemyModel.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Service/LevelGenrator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Service/LevelGenerator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Resources/Descriptors/LevelDescriptor.xml" />
         <option value="$PROJECT_DIR$/Assets/Resources/Descriptors/EnemiesDescriptor.xml" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Descriptors/TileDescriptor.xml" />
         <option value="$PROJECT_DIR$/Assets/Resources/Descriptors/FoodDescriptor.xml" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Descriptors/LevelDescriptor.xml" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Descriptors/EnemiesDescriptor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Descriptors/FoodDescriptor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Descriptors/LevelDescriptor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Models/TileModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Models/FoodModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Models/EnemyModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Service/LevelGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Mono/GameBuilder.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="460" />
+    <option name="y" value="200" />
     <option name="width" value="1126" />
     <option name="height" value="1047" />
   </component>
@@ -128,7 +233,27 @@
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
               <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
               <item name="Core" type="1045f7f1:UnityExplorerNode" />
+              <item name="Descriptors" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="Core" type="1045f7f1:UnityExplorerNode" />
+              <item name="Models" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="Core" type="1045f7f1:UnityExplorerNode" />
               <item name="Service" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="Mono" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
@@ -191,12 +316,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656484300549</updated>
-      <workItem from="1656484301799" duration="5750000" />
+      <workItem from="1656484301799" duration="10047000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5750000" />
+    <option name="totallyTimeSpent" value="10047000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -208,7 +333,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -256,21 +381,17 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Core/Service/LevelGenerator.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Descriptors/TileDescriptor.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding>
-            <marker date="1656484647179" expanded="false" signature="6:78" ph="..." />
-            <marker date="1656484647179" expanded="true" signature="107:116" ph="{...}" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Descriptors/LevelDescriptor.xml">
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Descriptors/FoodDescriptor.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        <state relative-caret-position="34">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -281,10 +402,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Descriptors/FoodDescriptor.xml">
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Descriptors/LevelTest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        <state relative-caret-position="357">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Core/Descriptors/EnemiesDescriptor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <marker date="1656523693161" expanded="true" signature="30:78" ph="{...}" />
+            <marker date="1656523693161" expanded="true" signature="55:76" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Core/Descriptors/FoodDescriptor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <marker date="1656523693093" expanded="true" signature="27:75" ph="{...}" />
+            <marker date="1656523693093" expanded="true" signature="52:73" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Core/Models/TileModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <marker date="1656524677925" expanded="false" signature="6:78" ph="..." />
+            <marker date="1656524677925" expanded="true" signature="102:300" ph="{...}" />
+            <marker date="1656524677925" expanded="true" signature="129:179" ph="{...}" />
+            <marker date="1656524677925" expanded="true" signature="234:298" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Core/Models/FoodModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <marker date="1656524635395" expanded="false" signature="6:78" ph="..." />
+            <marker date="1656524635395" expanded="true" signature="102:354" ph="{...}" />
+            <marker date="1656524635395" expanded="true" signature="182:252" ph="{...}" />
+            <marker date="1656524635395" expanded="true" signature="278:352" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Core/Models/EnemyModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <marker date="1656524662938" expanded="false" signature="6:78" ph="..." />
+            <marker date="1656524662938" expanded="true" signature="103:439" ph="{...}" />
+            <marker date="1656524662938" expanded="true" signature="200:268" ph="{...}" />
+            <marker date="1656524662938" expanded="true" signature="292:358" ph="{...}" />
+            <marker date="1656524662938" expanded="true" signature="377:437" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Core/Descriptors/LevelDescriptor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <marker date="1656523693211" expanded="true" signature="28:76" ph="{...}" />
+            <marker date="1656523693211" expanded="true" signature="53:74" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Core/Service/LevelGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <marker date="1656525114444" expanded="false" signature="6:78" ph="..." />
+            <marker date="1656525114444" expanded="true" signature="107:633" ph="{...}" />
+            <marker date="1656525114444" expanded="true" signature="272:321" ph="{...}" />
+            <marker date="1656525114444" expanded="true" signature="367:631" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mono/GameBuilder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <marker date="1656525114488" expanded="false" signature="6:78" ph="..." />
+            <marker date="1656525114488" expanded="true" signature="120:285" ph="{...}" />
+            <marker date="1656525114488" expanded="true" signature="191:283" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

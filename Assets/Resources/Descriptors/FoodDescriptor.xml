@@ -1,5 +1,3 @@
 <foods>
-    <food id="0" path="" addedHP="" livingTime="" name=""/>
-    <food id="1" path="" addedHP="" livingTime="" name=""/>
-    <food id="2" path="" addedHP="" livingTime="" name=""/>
+    <food id="0" path="Prefabs/Food/Cherry" addedHP="15" livingTime="10" name="Cherry"/>
 </foods>
