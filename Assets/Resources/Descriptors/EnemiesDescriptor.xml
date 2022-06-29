@@ -1,0 +1,4 @@
+<enemies>
+    <enemy id="0" path = "" damage="4" hp="20" name="" speed="4"/>
+    <enemy id="1" path = "" damage="10" hp="10" name="" speed="7"/>
+</enemies>
