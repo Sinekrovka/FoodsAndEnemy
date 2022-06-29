@@ -1,6 +1,6 @@
 public class FoodDescriptor
 {
-    public void Init()
+    public void Init(string path)
     {
         
     }

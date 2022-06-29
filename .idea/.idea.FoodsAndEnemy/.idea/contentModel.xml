@@ -37,6 +37,7 @@
               <e p="EnemiesDescriptor.cs" t="Include" />
               <e p="FoodDescriptor.cs" t="Include" />
               <e p="LevelDescriptor.cs" t="Include" />
+              <e p="TileDescriptor.cs" t="Include" />
             </e>
             <e p="Models" t="Include">
               <e p="EnemyModel.cs" t="Include" />
@@ -44,6 +45,7 @@
               <e p="TileModel.cs" t="Include" />
             </e>
             <e p="Service" t="Include">
+              <e p="Configure.cs" t="Include" />
               <e p="LevelGenerator.cs" t="Include" />
             </e>
           </e>
