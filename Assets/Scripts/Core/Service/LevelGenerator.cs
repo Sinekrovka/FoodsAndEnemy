@@ -6,10 +6,10 @@ public class LevelGenerator
 {
     private LevelDescriptor _levelDescriptor;
 
-    private const string PATH_CONFIG = "Descriptors/";
+    private string PATH_CONFIG = "/Resources/Descriptors/";
     public void Init()
     {
-        Configure();
+        PATH_CONFIG = Application.dataPath + PATH_CONFIG;
         InitializationDescriptors();
     }
 
@@ -19,8 +19,5 @@ public class LevelGenerator
         _levelDescriptor.Init(PATH_CONFIG);
     }
 
-    private void Configure()
-    {
-        
-    }
+    public LevelDescriptor LevelDescriptor => _levelDescriptor;
 }

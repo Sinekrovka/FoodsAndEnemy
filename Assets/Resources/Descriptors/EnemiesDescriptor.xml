@@ -1,4 +1,4 @@
 <enemies>
-    <enemy id="0" path = "Prefabs/Enemies/FrogEnemy" damage="4" hp="20" name="" speed="4"/>
-    <enemy id="1" path = "Prefabs/Enemies/OpposumEnemy" damage="10" hp="10" name="" speed="7"/>
+    <enemy id="0" path = "Prefabs/Enemies/FrogEnemy" damage="4" hp="20" name="Frog" speed="4"/>
+    <enemy id="1" path = "Prefabs/Enemies/OpposumEnemy" damage="10" hp="10" name="Opposum" speed="7"/>
 </enemies>

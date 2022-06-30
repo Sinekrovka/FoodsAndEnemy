@@ -4,17 +4,11 @@ using UnityEngine;
 
 public class TileModel
 {
-    public enum TileType
-    {
-        Walkable,
-        NoWalkable,
-    }
+    private bool _walkable;
 
-    private TileType _type;
-
-    public TileType Type
+    public bool Walkable
     {
-        get => _type;
-        set => _type = value;
+        get => _walkable;
+        set => _walkable = value;
     }
 }

@@ -1,12 +1,12 @@
 <tiles>
-    <tile id="0" path="Prefabs/Tiles/Water/Water 4" rotation="true"/>
-    <tile id="1" path="Prefabs/Tiles/Ground/Grass 0" rotation="false"/>
-    <tile id="2" path="Prefabs/Tiles/Ground/Grass 1" rotation="false"/>
-    <tile id="3" path="Prefabs/Tiles/Ground/Grass 2" rotation="false"/>
-    <tile id="4" path="Prefabs/Tiles/Ground/Grass 3" rotation="false"/>
-    <tile id="5" path="Prefabs/Tiles/Ground/Grass 4" rotation="true"/>
-    <tile id="6" path="Prefabs/Tiles/Ground/Grass 5" rotation="false"/>
-    <tile id="7" path="Prefabs/Tiles/Ground/Grass 6" rotation="false"/>
-    <tile id="8" path="Prefabs/Tiles/Ground/Grass 7" rotation="false"/>
-    <tile id="9" path="Prefabs/Tiles/Ground/Grass 8" rotation="false"/>
+    <tile id="0" path="Prefabs/Tiles/Water/Water 4" rotation="true" walkable="false"/>
+    <tile id="1" path="Prefabs/Tiles/Ground/Grass 0" rotation="false" walkable="true"/>
+    <tile id="2" path="Prefabs/Tiles/Ground/Grass 1" rotation="false" walkable="true"/>
+    <tile id="3" path="Prefabs/Tiles/Ground/Grass 2" rotation="false" walkable="true"/>
+    <tile id="4" path="Prefabs/Tiles/Ground/Grass 3" rotation="false" walkable="true"/>
+    <tile id="5" path="Prefabs/Tiles/Ground/Grass 4" rotation="true" walkable="true"/>
+    <tile id="6" path="Prefabs/Tiles/Ground/Grass 5" rotation="false" walkable="true"/>
+    <tile id="7" path="Prefabs/Tiles/Ground/Grass 6" rotation="false" walkable="true"/>
+    <tile id="8" path="Prefabs/Tiles/Ground/Grass 7" rotation="false" walkable="true"/>
+    <tile id="9" path="Prefabs/Tiles/Ground/Grass 8" rotation="false" walkable="true"/>
 </tiles>
