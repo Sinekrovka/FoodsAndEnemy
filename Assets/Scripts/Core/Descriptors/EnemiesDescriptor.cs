@@ -11,7 +11,7 @@ public class EnemiesDescriptor
     public void Init(string path, string id)
     {
         Configure config = new Configure();
-        XElement root = config.ConfigFile(path + _descriptorPath).Root;
+        XElement root = config.ConfigFile(path + _descriptorPath).Element("enemies");
         foreach (var enemy in root.Elements())
         {
             if (enemy.Attribute("id").Value.Equals(id))

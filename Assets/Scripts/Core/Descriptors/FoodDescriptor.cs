@@ -1,4 +1,5 @@
 using System.Xml.Linq;
+using UnityEngine;
 
 public class FoodDescriptor
 {
@@ -10,7 +11,7 @@ public class FoodDescriptor
     public void Init(string path, string id)
     {
         Configure config = new Configure();
-        XElement root = config.ConfigFile(path + _descriptorPath).Root;
+        XElement root = config.ConfigFile(path + _descriptorPath).Element("foods");
         foreach (var food in root.Elements())
         {
             if (food.Attribute("id").Value.Equals(id))

@@ -1,5 +1,6 @@
 using System;
 using System.Xml.Linq;
+using UnityEngine;
 
 public class TileDescriptor
 {
@@ -11,15 +12,15 @@ public class TileDescriptor
     public void Init(string path, string id)
     {
         Configure config = new Configure();
-        XElement root = config.ConfigFile(path + _descriptorPath).Root;
+        XElement root = config.ConfigFile(path + _descriptorPath).Element("tiles");
         foreach (var tile in root.Elements())
         {
-            if (tile.Attribute("id").Equals(id))
+            if (tile.Attribute("id").Value.Equals(id))
             {
                 _type = Boolean.Parse(tile.Attribute("walkable").Value);
                 _pathPrefab = tile.Attribute("path").Value;
                 _rotation = Boolean.Parse(tile.Attribute("rotation").Value);
-                return;
+                break;
             }
         }
     }

@@ -1,5 +1,7 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Xml.Linq;
+using UnityEngine;
 
 public class LevelDescriptor
 {
@@ -25,15 +27,15 @@ public class LevelDescriptor
 
     private void InitializationLevelTiles()
     {
-        string[] tiles = _doc.Root.Element("levelTiles").Value.Split("\n");
+        string[] tiles = _doc.Root.Element("levelTiles").Attribute("tiles").Value.Split("!");
         _rows = tiles.Length;
-
         _indexesTileStructure = new List<List<TileDescriptor>>();
         for (int i = 0; i < _rows; ++i)
         {
             List<TileDescriptor> tileList = new List<TileDescriptor>();
-            string[] row = tiles[i].Split(",");
-            _cols = row.Length;
+            string[] bigRowData = tiles[i].Split(' ');
+            List<string> row = bigRowData[bigRowData.Length - 1].Split(',').ToList();
+            _cols = row.Count;
             for (int j = 0; j < _cols; ++j)
             {
                 TileDescriptor tileDescriptor = new TileDescriptor();
@@ -42,6 +44,7 @@ public class LevelDescriptor
             }
             _indexesTileStructure.Add(tileList);
         }
+        _cols = tiles[0].Split(",").Length;
     }
 
     private void InitilizationEnemiesOnLevel()
