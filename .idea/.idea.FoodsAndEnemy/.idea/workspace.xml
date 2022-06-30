@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c2a99ee-b1ee-4a1d-b5dc-1dd3c341f3ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FoodsAndEnemy/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FoodsAndEnemy/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FoodsAndEnemy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FoodsAndEnemy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Descriptors/LevelTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Descriptors/LevelTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Descriptors/EnemiesDescriptor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Descriptors/EnemiesDescriptor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Descriptors/FoodDescriptor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Descriptors/FoodDescriptor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Descriptors/LevelDescriptor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Descriptors/LevelDescriptor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Descriptors/TileDescriptor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Descriptors/TileDescriptor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mono/GameBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mono/GameBuilder.cs" afterDir="false" />
-    </list>
+    <list default="true" id="2c2a99ee-b1ee-4a1d-b5dc-1dd3c341f3ec" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,17 +13,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mono/GameBuilder.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+            <state relative-caret-position="255">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
-                <marker date="1656601785690" expanded="false" signature="6:78" ph="..." />
-                <marker date="1656601785690" expanded="true" signature="120:1353" ph="{...}" />
-                <marker date="1656601785690" expanded="true" signature="193:406" ph="{...}" />
-                <marker date="1656601785690" expanded="true" signature="435:1292" ph="{...}" />
-                <marker date="1656601785690" expanded="true" signature="618:1286" ph="{...}" />
-                <marker date="1656601785690" expanded="true" signature="671:1276" ph="{...}" />
-                <marker date="1656601785690" expanded="true" signature="1058:1203" ph="{...}" />
-                <marker date="1656601785690" expanded="true" signature="1330:1351" ph="{...}" />
+                <marker date="1656601864946" expanded="false" signature="6:78" ph="..." />
+                <marker date="1656601864946" expanded="true" signature="120:1359" ph="{...}" />
+                <marker date="1656601864946" expanded="true" signature="193:406" ph="{...}" />
+                <marker date="1656601864946" expanded="true" signature="435:1298" ph="{...}" />
+                <marker date="1656601864946" expanded="true" signature="618:1292" ph="{...}" />
+                <marker date="1656601864946" expanded="true" signature="671:1282" ph="{...}" />
+                <marker date="1656601864946" expanded="true" signature="1064:1209" ph="{...}" />
+                <marker date="1656601864946" expanded="true" signature="1336:1357" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -182,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="976" />
@@ -316,12 +307,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656484300549</updated>
-      <workItem from="1656484301799" duration="29572000" />
+      <workItem from="1656484301799" duration="29864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29572000" />
+    <option name="totallyTimeSpent" value="29864000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -579,17 +570,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mono/GameBuilder.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        <state relative-caret-position="255">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
-            <marker date="1656601785690" expanded="false" signature="6:78" ph="..." />
-            <marker date="1656601785690" expanded="true" signature="120:1353" ph="{...}" />
-            <marker date="1656601785690" expanded="true" signature="193:406" ph="{...}" />
-            <marker date="1656601785690" expanded="true" signature="435:1292" ph="{...}" />
-            <marker date="1656601785690" expanded="true" signature="618:1286" ph="{...}" />
-            <marker date="1656601785690" expanded="true" signature="671:1276" ph="{...}" />
-            <marker date="1656601785690" expanded="true" signature="1058:1203" ph="{...}" />
-            <marker date="1656601785690" expanded="true" signature="1330:1351" ph="{...}" />
+            <marker date="1656601864946" expanded="false" signature="6:78" ph="..." />
+            <marker date="1656601864946" expanded="true" signature="120:1359" ph="{...}" />
+            <marker date="1656601864946" expanded="true" signature="193:406" ph="{...}" />
+            <marker date="1656601864946" expanded="true" signature="435:1298" ph="{...}" />
+            <marker date="1656601864946" expanded="true" signature="618:1292" ph="{...}" />
+            <marker date="1656601864946" expanded="true" signature="671:1282" ph="{...}" />
+            <marker date="1656601864946" expanded="true" signature="1064:1209" ph="{...}" />
+            <marker date="1656601864946" expanded="true" signature="1336:1357" ph="{...}" />
           </folding>
         </state>
       </provider>
