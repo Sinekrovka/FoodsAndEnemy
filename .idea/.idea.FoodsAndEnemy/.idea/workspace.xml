@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2c2a99ee-b1ee-4a1d-b5dc-1dd3c341f3ec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FoodsAndEnemy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FoodsAndEnemy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Enemies/FrogEnemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Enemies/FrogEnemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Enemies/OpposumEnemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Enemies/OpposumEnemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Food/Cherry.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Food/Cherry.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Player/PlayerStandart.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Player/PlayerStandart.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mono/Controllers/EnemyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mono/Controllers/EnemyController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mono/GameBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mono/GameBuilder.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mono/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mono/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mono/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mono/Player/PlayerMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mono/Spawners/EnemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mono/Spawners/EnemySpawner.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mono/Spawners/FoodSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mono/Spawners/FoodSpawner.cs" afterDir="false" />
     </list>
@@ -43,24 +35,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mono/Controllers/FoodController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <marker date="1656682284927" expanded="false" signature="6:78" ph="..." />
-                <marker date="1656682284927" expanded="true" signature="123:267" ph="{...}" />
-                <marker date="1656682284927" expanded="true" signature="191:265" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mono/Controllers/EnemyController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="34">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <marker date="1656687441573" expanded="false" signature="6:97" ph="..." />
                 <marker date="1656687441573" expanded="true" signature="143:497" ph="{...}" />
@@ -75,29 +53,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mono/Spawners/EnemySpawner.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="527">
+              <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
               <folding>
-                <marker date="1656688813236" expanded="true" signature="6:82" ph="..." />
-                <marker date="1656688813236" expanded="true" signature="125:1104" ph="{...}" />
-                <marker date="1656688813236" expanded="true" signature="319:427" ph="{...}" />
-                <marker date="1656688813236" expanded="true" signature="453:488" ph="{...}" />
-                <marker date="1656688813236" expanded="true" signature="526:1102" ph="{...}" />
+                <marker date="1656689560661" expanded="true" signature="6:82" ph="..." />
+                <marker date="1656689560661" expanded="true" signature="125:1223" ph="{...}" />
+                <marker date="1656689560661" expanded="true" signature="319:427" ph="{...}" />
+                <marker date="1656689560661" expanded="true" signature="453:488" ph="{...}" />
+                <marker date="1656689560661" expanded="true" signature="526:1221" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mono/Controllers/TileController.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Resources/Descriptors/FoodDescriptor.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1656603739737" expanded="false" signature="6:78" ph="..." />
-                <marker date="1656603739737" expanded="true" signature="123:323" ph="{...}" />
-                <marker date="1656603739737" expanded="true" signature="183:227" ph="{...}" />
-                <marker date="1656603739737" expanded="true" signature="255:321" ph="{...}" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Resources/Descriptors/EnemiesDescriptor.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="94" selection-start-line="1" selection-start-column="94" selection-end-line="1" selection-end-column="94" />
             </state>
           </provider>
         </entry>
@@ -135,17 +117,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mono/Spawners/FoodSpawner.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+            <state relative-caret-position="323">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding>
-                <marker date="1656688633732" expanded="false" signature="6:108" ph="..." />
-                <marker date="1656688633732" expanded="true" signature="150:1263" ph="{...}" />
-                <marker date="1656688633732" expanded="true" signature="330:436" ph="{...}" />
-                <marker date="1656688633732" expanded="true" signature="462:497" ph="{...}" />
-                <marker date="1656688633732" expanded="true" signature="535:1261" ph="{...}" />
+                <marker date="1656689284428" expanded="false" signature="6:108" ph="..." />
+                <marker date="1656689284428" expanded="true" signature="150:1295" ph="{...}" />
+                <marker date="1656689284428" expanded="true" signature="330:436" ph="{...}" />
+                <marker date="1656689284428" expanded="true" signature="462:497" ph="{...}" />
+                <marker date="1656689284428" expanded="true" signature="535:1293" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -173,22 +155,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mono/Player/PlayerController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+            <state relative-caret-position="507">
+              <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
               <folding>
-                <marker date="1656688164003" expanded="false" signature="6:78" ph="..." />
-                <marker date="1656688164003" expanded="true" signature="125:1145" ph="{...}" />
-                <marker date="1656688164003" expanded="true" signature="190:244" ph="{...}" />
-                <marker date="1656688164003" expanded="true" signature="285:564" ph="{...}" />
-                <marker date="1656688164003" expanded="true" signature="369:496" ph="{...}" />
-                <marker date="1656688164003" expanded="true" signature="509:549" ph="{...}" />
-                <marker date="1656688164003" expanded="true" signature="617:975" ph="{...}" />
-                <marker date="1656688164003" expanded="true" signature="695:807" ph="{...}" />
-                <marker date="1656688164003" expanded="true" signature="868:969" ph="{...}" />
-                <marker date="1656688164003" expanded="true" signature="1000:1143" ph="{...}" />
+                <marker date="1656689645164" expanded="false" signature="6:78" ph="..." />
+                <marker date="1656689645164" expanded="true" signature="125:1215" ph="{...}" />
+                <marker date="1656689645164" expanded="true" signature="190:243" ph="{...}" />
+                <marker date="1656689645164" expanded="true" signature="284:563" ph="{...}" />
+                <marker date="1656689645164" expanded="true" signature="368:495" ph="{...}" />
+                <marker date="1656689645164" expanded="true" signature="508:548" ph="{...}" />
+                <marker date="1656689645164" expanded="true" signature="616:1045" ph="{...}" />
+                <marker date="1656689645164" expanded="true" signature="682:843" ph="{...}" />
+                <marker date="1656689645164" expanded="true" signature="852:1039" ph="/* if (other.TryGetComponent(out EnemyController enemyController)) ... */" />
+                <marker date="1656689645164" expanded="true" signature="1070:1213" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -257,9 +239,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Mono/Player/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Mono/GameBuilder.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Mono/Controllers/EnemyController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Mono/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Mono/Spawners/FoodSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Mono/Spawners/EnemySpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Mono/Player/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -419,12 +401,12 @@
       <option name="presentableId" value="Default" />
       <updated>1656484300549</updated>
       <workItem from="1656484301799" duration="45293000" />
-      <workItem from="1656684977205" duration="3844000" />
+      <workItem from="1656684977205" duration="4679000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49137000" />
+    <option name="totallyTimeSpent" value="49972000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -436,7 +418,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16791044" />
@@ -579,13 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Descriptors/FoodDescriptor.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Core/Descriptors/FoodDescriptor.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -685,13 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Descriptors/EnemiesDescriptor.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="94" selection-start-line="1" selection-start-column="94" selection-end-line="1" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mono/Controllers/FoodController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -765,20 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mono/Controllers/EnemyController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <marker date="1656687441573" expanded="false" signature="6:97" ph="..." />
-            <marker date="1656687441573" expanded="true" signature="143:497" ph="{...}" />
-            <marker date="1656687441573" expanded="true" signature="215:291" ph="{...}" />
-            <marker date="1656687441573" expanded="true" signature="317:346" ph="{...}" />
-            <marker date="1656687441573" expanded="true" signature="372:495" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mono/Player/PlayerMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -796,49 +750,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mono/Player/PlayerController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mono/Controllers/EnemyController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        <state relative-caret-position="34">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <marker date="1656688164003" expanded="false" signature="6:78" ph="..." />
-            <marker date="1656688164003" expanded="true" signature="125:1145" ph="{...}" />
-            <marker date="1656688164003" expanded="true" signature="190:244" ph="{...}" />
-            <marker date="1656688164003" expanded="true" signature="285:564" ph="{...}" />
-            <marker date="1656688164003" expanded="true" signature="369:496" ph="{...}" />
-            <marker date="1656688164003" expanded="true" signature="509:549" ph="{...}" />
-            <marker date="1656688164003" expanded="true" signature="617:975" ph="{...}" />
-            <marker date="1656688164003" expanded="true" signature="695:807" ph="{...}" />
-            <marker date="1656688164003" expanded="true" signature="868:969" ph="{...}" />
-            <marker date="1656688164003" expanded="true" signature="1000:1143" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mono/Spawners/EnemySpawner.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <marker date="1656688813236" expanded="true" signature="6:82" ph="..." />
-            <marker date="1656688813236" expanded="true" signature="125:1104" ph="{...}" />
-            <marker date="1656688813236" expanded="true" signature="319:427" ph="{...}" />
-            <marker date="1656688813236" expanded="true" signature="453:488" ph="{...}" />
-            <marker date="1656688813236" expanded="true" signature="526:1102" ph="{...}" />
+            <marker date="1656687441573" expanded="false" signature="6:97" ph="..." />
+            <marker date="1656687441573" expanded="true" signature="143:497" ph="{...}" />
+            <marker date="1656687441573" expanded="true" signature="215:291" ph="{...}" />
+            <marker date="1656687441573" expanded="true" signature="317:346" ph="{...}" />
+            <marker date="1656687441573" expanded="true" signature="372:495" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mono/Spawners/FoodSpawner.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+        <state relative-caret-position="323">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
-            <marker date="1656688633732" expanded="false" signature="6:108" ph="..." />
-            <marker date="1656688633732" expanded="true" signature="150:1263" ph="{...}" />
-            <marker date="1656688633732" expanded="true" signature="330:436" ph="{...}" />
-            <marker date="1656688633732" expanded="true" signature="462:497" ph="{...}" />
-            <marker date="1656688633732" expanded="true" signature="535:1261" ph="{...}" />
+            <marker date="1656689284428" expanded="false" signature="6:108" ph="..." />
+            <marker date="1656689284428" expanded="true" signature="150:1295" ph="{...}" />
+            <marker date="1656689284428" expanded="true" signature="330:436" ph="{...}" />
+            <marker date="1656689284428" expanded="true" signature="462:497" ph="{...}" />
+            <marker date="1656689284428" expanded="true" signature="535:1293" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Descriptors/FoodDescriptor.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Descriptors/EnemiesDescriptor.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="94" selection-start-line="1" selection-start-column="94" selection-end-line="1" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mono/Spawners/EnemySpawner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+          <folding>
+            <marker date="1656689560661" expanded="true" signature="6:82" ph="..." />
+            <marker date="1656689560661" expanded="true" signature="125:1223" ph="{...}" />
+            <marker date="1656689560661" expanded="true" signature="319:427" ph="{...}" />
+            <marker date="1656689560661" expanded="true" signature="453:488" ph="{...}" />
+            <marker date="1656689560661" expanded="true" signature="526:1221" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mono/Player/PlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+          <folding>
+            <marker date="1656689645164" expanded="false" signature="6:78" ph="..." />
+            <marker date="1656689645164" expanded="true" signature="125:1215" ph="{...}" />
+            <marker date="1656689645164" expanded="true" signature="190:243" ph="{...}" />
+            <marker date="1656689645164" expanded="true" signature="284:563" ph="{...}" />
+            <marker date="1656689645164" expanded="true" signature="368:495" ph="{...}" />
+            <marker date="1656689645164" expanded="true" signature="508:548" ph="{...}" />
+            <marker date="1656689645164" expanded="true" signature="616:1045" ph="{...}" />
+            <marker date="1656689645164" expanded="true" signature="682:843" ph="{...}" />
+            <marker date="1656689645164" expanded="true" signature="852:1039" ph="/* if (other.TryGetComponent(out EnemyController enemyController)) ... */" />
+            <marker date="1656689645164" expanded="true" signature="1070:1213" ph="{...}" />
           </folding>
         </state>
       </provider>

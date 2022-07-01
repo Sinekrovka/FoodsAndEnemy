@@ -27,9 +27,9 @@ public class EnemySpawner : MonoBehaviour
         model.Damage = enemy.Damage;
         model.HP = enemy.Hp;
         GameObject enemyItem = Resources.Load<GameObject>(enemy.PrefabPath);
-        EnemyController enemyController = enemyItem.AddComponent<EnemyController>();
+        EnemyController enemyController = enemyItem.GetComponent<EnemyController>();
         enemyController.EnemyModel = model;
-        Instantiate(enemyItem, _enemmyContainer.transform);
+        Instantiate(enemyItem, GameBuilder.Instance.GetRandomWalkablePoint(), Quaternion.identity, _enemmyContainer.transform);
         TimeSpawner();
     }
 }

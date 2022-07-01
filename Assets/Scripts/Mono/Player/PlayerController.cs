@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
-        //tartCoroutine(TimeUnscaleHP());
+        //StartCoroutine(TimeUnscaleHP());
     }
 
     private IEnumerator TimeUnscaleHP()
@@ -29,17 +29,19 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.TryGetComponent(out EnemyController enemyController))
-        {
-            HP -= enemyController.EnemyModel.Damage;
-            Destroy(other.gameObject);
-        }
-
         if (other.TryGetComponent(out FoodController food))
         {
+            Debug.LogError(food.FoodModel.AddedHp);
             HP += food.FoodModel.AddedHp;
-            Destroy(other.gameObject);
+            
+            other.gameObject.SetActive(false);
         }
+        /*if (other.TryGetComponent(out EnemyController enemyController))
+        {
+            HP -= enemyController.EnemyModel.Damage;
+            other.gameObject.SetActive(false);
+        }*/
+        UIController.Instance.HealthBarScale = HP / 100f;
     }
 
     private void Dead()

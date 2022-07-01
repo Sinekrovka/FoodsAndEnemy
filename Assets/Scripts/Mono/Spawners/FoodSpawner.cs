@@ -27,11 +27,10 @@ public class FoodSpawner : MonoBehaviour
         FoodModel foodModel = new FoodModel();
         foodModel.AddedHp = descriptor.AddedHp;
         foodModel.LivedTime = descriptor.LivingTime;
-        foodItem.AddComponent<FoodController>();
         FoodController foodController = foodItem.GetComponent<FoodController>();
         foodController.FoodModel = foodModel;
-        GameObject food = Instantiate(foodItem, _foodContainer.transform);
-        Destroy(food, food.GetComponent<FoodController>().FoodModel.LivedTime);
+        GameObject food = Instantiate(foodItem, GameBuilder.Instance.GetRandomWalkablePoint(), Quaternion.identity, _foodContainer.transform);
+        Destroy(food, foodModel.LivedTime);
         TimeSpawner();
     }
 }
