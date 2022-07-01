@@ -1,3 +1,4 @@
+using System.Globalization;
 using System.Xml.Linq;
 
 public class EnemiesDescriptor
@@ -19,7 +20,7 @@ public class EnemiesDescriptor
                 _prefabPath = enemy.Attribute("path").Value;
                 _damage = int.Parse(enemy.Attribute("damage").Value);
                 _hp = int.Parse(enemy.Attribute("hp").Value);
-                _speed = float.Parse(enemy.Attribute("speed").Value);
+                _speed = float.Parse(enemy.Attribute("speed").Value, CultureInfo.InvariantCulture);
                 _name = enemy.Attribute("name").Value;
                 return;
             }

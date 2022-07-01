@@ -4,11 +4,9 @@ using UnityEngine;
 public class GameBuilder : MonoBehaviour
 {
     private LevelDescriptor _levelDescriptor;
-    public static GameBuilder Instance;
     private List<Vector3> _walkableCoordinates;
     private void Awake()
     {
-        Instance = this;
         LevelGenerator levelGenerator = new LevelGenerator();
         levelGenerator.Init();
         _levelDescriptor = levelGenerator.LevelDescriptor;
@@ -54,13 +52,18 @@ public class GameBuilder : MonoBehaviour
         inputController.AddComponent<InputController>().Init();
         GameObject playerMovement = Instantiate(new GameObject("PlayerMovementController"), container.transform);
         playerMovement.AddComponent<PlayerMovement>().Init(inputController.GetComponent<InputController>());
+        GameObject gameController = Instantiate(new GameObject("Game Controller"), container.transform);
+        GameController gameControllerScript = gameController.AddComponent<GameController>();
+        gameControllerScript.TimeGame = _levelDescriptor.LevelTime;
     }
 
     private void CreateSpawners()
     {
         GameObject container = new GameObject("Spawners");
         GameObject foodSpawner = Instantiate(new GameObject("FoodSpawner"), container.transform);
-        foodSpawner.AddComponent<FoodSpawner>().Init(_levelDescriptor.FoodDescriptors, this);   
+        foodSpawner.AddComponent<FoodSpawner>().Init(_levelDescriptor.FoodDescriptors, this);
+        GameObject enemySpawner = Instantiate(new GameObject("EnemySpawner"), container.transform);
+        enemySpawner.AddComponent<EnemySpawner>().Init(_levelDescriptor.EnemiesDescriptors, this);
     }
 
     public Vector3 GetRandomWalkablePoint()

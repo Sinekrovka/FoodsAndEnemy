@@ -93,4 +93,6 @@ public class LevelDescriptor
 
         return null;
     }
+
+    public int LevelTime => _levelTime;
 }

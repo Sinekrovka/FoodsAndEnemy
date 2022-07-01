@@ -20,7 +20,8 @@ public class FoodSpawner : MonoBehaviour
             FoodModel foodModel = new FoodModel();
             foodModel.AddedHp = foodDescriptor.AddedHp;
             foodModel.LivedTime = foodDescriptor.LivingTime;
-            foodItem.AddComponent<FoodController>().Init(foodModel);
+            FoodController foodController = foodItem.AddComponent<FoodController>();
+            foodController.FoodModel = foodModel;
             _foodObjects.Add(foodItem);
         }
     }
@@ -33,8 +34,9 @@ public class FoodSpawner : MonoBehaviour
     private async void TimeSpawner()
     {
         await Task.Delay(timeSpawn * 1000);
-        Instantiate(_foodObjects[Random.Range(0, _foodObjects.Count)], _gameBuilder.GetRandomWalkablePoint(),
+        GameObject food = Instantiate(_foodObjects[Random.Range(0, _foodObjects.Count)], _gameBuilder.GetRandomWalkablePoint(),
             Quaternion.identity, _foodContainer.transform);
+        Destroy(food, food.GetComponent<FoodController>().FoodModel.LivedTime);
         TimeSpawner();
     }
 }
