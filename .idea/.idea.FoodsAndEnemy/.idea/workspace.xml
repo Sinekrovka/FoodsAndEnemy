@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c2a99ee-b1ee-4a1d-b5dc-1dd3c341f3ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FoodsAndEnemy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FoodsAndEnemy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mono/Controllers/EnemyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mono/Controllers/EnemyController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mono/Controllers/FoodController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mono/Controllers/FoodController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mono/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mono/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mono/Spawners/EnemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mono/Spawners/EnemySpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mono/Spawners/FoodSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mono/Spawners/FoodSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mono/Controllers/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mono/Controllers/GameController.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mono/Controllers/EnemyController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -41,6 +36,24 @@
                 <marker date="1656691320030" expanded="true" signature="143:506" ph="{...}" />
                 <marker date="1656691320030" expanded="true" signature="216:292" ph="{...}" />
                 <marker date="1656691320030" expanded="true" signature="317:504" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mono/Controllers/GameController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+              <folding>
+                <marker date="1656691563261" expanded="false" signature="6:78" ph="..." />
+                <marker date="1656691563261" expanded="true" signature="123:935" ph="{...}" />
+                <marker date="1656691563261" expanded="true" signature="291:540" ph="{...}" />
+                <marker date="1656691563261" expanded="true" signature="568:616" ph="{...}" />
+                <marker date="1656691563261" expanded="true" signature="644:722" ph="{...}" />
+                <marker date="1656691563261" expanded="true" signature="755:838" ph="{...}" />
+                <marker date="1656691563261" expanded="true" signature="863:933" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -92,15 +105,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Resources/Descriptors/EnemiesDescriptor.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="94" selection-start-line="1" selection-start-column="94" selection-end-line="1" selection-end-column="94" />
             </state>
           </provider>
         </entry>
@@ -210,7 +214,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Mono/EnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Mono/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Descriptors/LevelDescriptor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Mono/Controllers/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Mono/Controllers/IUController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Mono/Controllers/UIController.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Descriptors/EnemiesDescriptor.xml" />
@@ -223,6 +226,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Mono/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Mono/Spawners/EnemySpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Mono/Controllers/EnemyController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Mono/Controllers/GameController.cs" />
       </list>
     </option>
   </component>
@@ -274,13 +278,6 @@
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
               <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
               <item name="Core" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Core" type="1045f7f1:UnityExplorerNode" />
-              <item name="Descriptors" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
@@ -382,12 +379,12 @@
       <option name="presentableId" value="Default" />
       <updated>1656484300549</updated>
       <workItem from="1656484301799" duration="45293000" />
-      <workItem from="1656684977205" duration="6338000" />
+      <workItem from="1656684977205" duration="6584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51631000" />
+    <option name="totallyTimeSpent" value="51877000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -399,7 +396,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16791044" />
@@ -573,22 +570,6 @@
             <marker date="1656680856751" expanded="true" signature="2588:2688" ph="{...}" />
             <marker date="1656680856751" expanded="true" signature="3059:3205" ph="{...}" />
             <marker date="1656680856751" expanded="true" signature="3105:3177" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mono/Controllers/GameController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <marker date="1656680623781" expanded="false" signature="6:78" ph="..." />
-            <marker date="1656680623781" expanded="true" signature="123:621" ph="{...}" />
-            <marker date="1656680623781" expanded="true" signature="220:290" ph="{...}" />
-            <marker date="1656680623781" expanded="true" signature="318:339" ph="{...}" />
-            <marker date="1656680623781" expanded="true" signature="367:408" ph="{...}" />
-            <marker date="1656680623781" expanded="true" signature="441:524" ph="{...}" />
-            <marker date="1656680623781" expanded="true" signature="549:619" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -801,6 +782,22 @@
             <marker date="1656691320030" expanded="true" signature="143:506" ph="{...}" />
             <marker date="1656691320030" expanded="true" signature="216:292" ph="{...}" />
             <marker date="1656691320030" expanded="true" signature="317:504" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mono/Controllers/GameController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <marker date="1656691563261" expanded="false" signature="6:78" ph="..." />
+            <marker date="1656691563261" expanded="true" signature="123:935" ph="{...}" />
+            <marker date="1656691563261" expanded="true" signature="291:540" ph="{...}" />
+            <marker date="1656691563261" expanded="true" signature="568:616" ph="{...}" />
+            <marker date="1656691563261" expanded="true" signature="644:722" ph="{...}" />
+            <marker date="1656691563261" expanded="true" signature="755:838" ph="{...}" />
+            <marker date="1656691563261" expanded="true" signature="863:933" ph="{...}" />
           </folding>
         </state>
       </provider>
