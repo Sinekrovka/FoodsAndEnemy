@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
-        //StartCoroutine(TimeUnscaleHP());
+        StartCoroutine(TimeUnscaleHP());
     }
 
     private IEnumerator TimeUnscaleHP()
@@ -31,16 +31,14 @@ public class PlayerController : MonoBehaviour
     {
         if (other.TryGetComponent(out FoodController food))
         {
-            Debug.LogError(food.FoodModel.AddedHp);
-            HP += food.FoodModel.AddedHp;
-            
+            HP += food.Food_Model.AddedHp;
             other.gameObject.SetActive(false);
         }
-        /*if (other.TryGetComponent(out EnemyController enemyController))
+        if (other.TryGetComponent(out EnemyController enemyController))
         {
-            HP -= enemyController.EnemyModel.Damage;
+            HP -= enemyController.Enemy_Model.Damage;
             other.gameObject.SetActive(false);
-        }*/
+        }
         UIController.Instance.HealthBarScale = HP / 100f;
     }
 

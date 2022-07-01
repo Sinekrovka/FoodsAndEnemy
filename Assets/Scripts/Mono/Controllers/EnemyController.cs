@@ -7,19 +7,15 @@ public class EnemyController : MonoBehaviour
 {
     private EnemyModel _enemyModel;
 
-    public EnemyModel EnemyModel
+    public EnemyModel Enemy_Model
     {
         get => _enemyModel;
         set => _enemyModel = value;
     }
 
-    private void Awake()
+    public void Moved()
     {
-        Moved();
-    }
-
-    private void Moved()
-    {
-       //transform.DOMove(GameBuilder.Instance.GetRandomWalkablePoint(), _enemyModel.Speed).OnComplete(Moved);
+        Vector3 endPoint = GameBuilder.Instance.GetRandomWalkablePoint();
+       transform.DOMove(endPoint, Vector3.Distance(transform.position, endPoint)).OnComplete(Moved);
     }
 }

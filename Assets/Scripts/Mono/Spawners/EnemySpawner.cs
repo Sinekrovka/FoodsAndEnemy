@@ -22,14 +22,14 @@ public class EnemySpawner : MonoBehaviour
     {
         await Task.Delay(timeSpawn * 1000);
         EnemiesDescriptor enemy = _enemiesList[Random.Range(0, _enemiesList.Count)];
-        EnemyModel model = new EnemyModel();
-        model.Speed = enemy.Speed;
-        model.Damage = enemy.Damage;
-        model.HP = enemy.Hp;
         GameObject enemyItem = Resources.Load<GameObject>(enemy.PrefabPath);
+        enemyItem = Instantiate(enemyItem, GameBuilder.Instance.GetRandomWalkablePoint(), Quaternion.identity, _enemmyContainer.transform);
         EnemyController enemyController = enemyItem.GetComponent<EnemyController>();
-        enemyController.EnemyModel = model;
-        Instantiate(enemyItem, GameBuilder.Instance.GetRandomWalkablePoint(), Quaternion.identity, _enemmyContainer.transform);
+        enemyController.Enemy_Model = new EnemyModel();
+        enemyController.Enemy_Model.HP = enemy.Hp;
+        enemyController.Enemy_Model.Damage = enemy.Damage;
+        enemyController.Enemy_Model.Speed = enemy.Speed;
+        enemyController.Moved();
         TimeSpawner();
     }
 }
