@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     public static GameController Instance;
-    private int timeGame;
+    private int timeGame =60;
     private GameObject _failScreen;
     private GameObject _winScreen;
 
