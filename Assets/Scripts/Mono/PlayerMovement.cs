@@ -4,14 +4,17 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void Init(InputController input)
+    {
+        input.touchPoint += CheckTouch;
+    }
+
+    private void CheckTouch(Vector3 newForward, Transform cell)
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    private void StartMoving()
     {
         
     }

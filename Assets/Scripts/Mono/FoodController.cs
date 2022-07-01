@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class FoodController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private FoodModel _model;
+    public void Init(FoodModel model)
     {
-        
+        _model = model;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Awake()
     {
-        
+        Destroy(gameObject, _model.LivedTime);
     }
+
+    public FoodModel Model => _model;
 }

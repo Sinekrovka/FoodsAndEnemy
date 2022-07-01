@@ -1,18 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class InputController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Action<Vector3, Transform> touchPoint;
+    private Camera main;
+    public void Init()
     {
-        
+        main = Camera.main;
     }
-
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        if (Input.GetMouseButtonDown(0))
+        {
+            Ray ray = main.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ray, out RaycastHit hit))
+            {
+                touchPoint?.Invoke(hit.point, hit.transform);
+            }
+        }
     }
 }

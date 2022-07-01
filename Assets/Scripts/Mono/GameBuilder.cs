@@ -1,21 +1,25 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class GameBuilder : MonoBehaviour
 {
     private LevelDescriptor _levelDescriptor;
+    public static GameBuilder Instance;
+    private List<Vector3> _walkableCoordinates;
     private void Awake()
     {
+        Instance = this;
         LevelGenerator levelGenerator = new LevelGenerator();
         levelGenerator.Init();
         _levelDescriptor = levelGenerator.LevelDescriptor;
         BuildMap();
         CreateControllers();
+        CreateSpawners();
     }
 
     private void BuildMap()
     {
+        _walkableCoordinates = new List<Vector3>();
         int rows = _levelDescriptor.Rows;
         int cols = _levelDescriptor.Cols;
         GameObject container = new GameObject("Map");
@@ -30,14 +34,37 @@ public class GameBuilder : MonoBehaviour
                 {
                     tileOnMap.transform.rotation = Quaternion.Euler(new Vector3(0,0, Random.Range(0,4)*90));
                 }
-
+                TileModel tileModel = new TileModel();
+                tileModel.Walkable = _levelDescriptor.IndexesTileStructure[i][j].Type;
                 tileOnMap.AddComponent<TileController>();
+                if (tileModel.Walkable)
+                {
+                    _walkableCoordinates.Add(tileOnMap.transform.position);
+                }
+                TileController controller = tileOnMap.GetComponent<TileController>();
+                controller.Model = tileModel;
             }
         }
     }
 
     private void CreateControllers()
     {
-        
+        GameObject container = new GameObject("Controllers");
+        GameObject inputController = Instantiate(new GameObject("InputController"), container.transform);
+        inputController.AddComponent<InputController>().Init();
+        GameObject playerMovement = Instantiate(new GameObject("PlayerMovementController"), container.transform);
+        playerMovement.AddComponent<PlayerMovement>().Init(inputController.GetComponent<InputController>());
+    }
+
+    private void CreateSpawners()
+    {
+        GameObject container = new GameObject("Spawners");
+        GameObject foodSpawner = Instantiate(new GameObject("FoodSpawner"), container.transform);
+        foodSpawner.AddComponent<FoodSpawner>().Init(_levelDescriptor.FoodDescriptors, this);   
+    }
+
+    public Vector3 GetRandomWalkablePoint()
+    {
+        return _walkableCoordinates[Random.Range(0, _walkableCoordinates.Count)];
     }
 }

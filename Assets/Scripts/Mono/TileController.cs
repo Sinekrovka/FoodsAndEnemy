@@ -10,4 +10,10 @@ public class TileController : MonoBehaviour
     {
         return _model.Walkable;
     }
+
+    public TileModel Model
+    {
+        get => _model;
+        set => _model = value;
+    }
 }

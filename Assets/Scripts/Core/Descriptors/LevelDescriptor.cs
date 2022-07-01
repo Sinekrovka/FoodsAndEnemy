@@ -80,6 +80,10 @@ public class LevelDescriptor
     public int Cols => _cols;
     public List<List<TileDescriptor>> IndexesTileStructure => _indexesTileStructure;
 
+    public List<EnemiesDescriptor> EnemiesDescriptors => _enemiesDescriptors;
+
+    public List<FoodDescriptor> FoodDescriptors => _foodDescriptors;
+
     public TileDescriptor GetTileDescriptorOnCoordinates(int row, int col)
     {
         if (row < _rows && col < _cols)
