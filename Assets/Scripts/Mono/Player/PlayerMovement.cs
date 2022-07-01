@@ -9,19 +9,19 @@ public class PlayerMovement : MonoBehaviour
     private bool moved;
     public void Init(InputController input)
     {
-        moved = false;
         input.touchPoint += CheckTouch;
     }
 
     private void Awake()
     {
+        moved = false;
         _player = Resources.Load<GameObject>("Prefabs/Player/PlayerStandart");
-        Instantiate(_player);
+        _player = Instantiate(_player);
     }
 
     private void CheckTouch(Vector3 newForward, Transform cell)
     {
-        if (cell.GetComponent<TileController>().Walkable())
+        if (cell.TryGetComponent(out TileController tile) && tile.Walkable())
         {
             if (moved)
             {

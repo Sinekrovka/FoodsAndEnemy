@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
-        StartCoroutine(TimeUnscaleHP());
+        //tartCoroutine(TimeUnscaleHP());
     }
 
     private IEnumerator TimeUnscaleHP()

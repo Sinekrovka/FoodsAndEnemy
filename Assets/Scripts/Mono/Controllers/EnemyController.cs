@@ -6,17 +6,11 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
     private EnemyModel _enemyModel;
-    private GameBuilder _gameBuilder;
 
     public EnemyModel EnemyModel
     {
         get => _enemyModel;
         set => _enemyModel = value;
-    }
-
-    public void Init(GameBuilder builder)
-    {
-        _gameBuilder = builder;
     }
 
     private void Awake()
@@ -26,6 +20,6 @@ public class EnemyController : MonoBehaviour
 
     private void Moved()
     {
-        transform.DOMove(_gameBuilder.GetRandomWalkablePoint(), _enemyModel.Speed).OnComplete(Moved);
+       //transform.DOMove(GameBuilder.Instance.GetRandomWalkablePoint(), _enemyModel.Speed).OnComplete(Moved);
     }
 }

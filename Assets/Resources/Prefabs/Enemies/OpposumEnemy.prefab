@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8577880480215394844}
   - component: {fileID: 4651528147929195948}
   - component: {fileID: 694104633598824798}
+  - component: {fileID: 4722788223660099846}
   m_Layer: 0
   m_Name: OpposumEnemy
   m_TagString: Untagged
@@ -132,3 +133,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4722788223660099846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6076596788339207031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 195e2e048cd012c4a99aae8caa461a9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

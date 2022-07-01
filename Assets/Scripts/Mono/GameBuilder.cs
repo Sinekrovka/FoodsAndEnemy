@@ -3,10 +3,12 @@ using UnityEngine;
 
 public class GameBuilder : MonoBehaviour
 {
+    public static GameBuilder Instance;
     private LevelDescriptor _levelDescriptor;
     private List<Vector3> _walkableCoordinates;
     private void Awake()
     {
+        Instance = this;
         LevelGenerator levelGenerator = new LevelGenerator();
         levelGenerator.Init();
         _levelDescriptor = levelGenerator.LevelDescriptor;
@@ -48,22 +50,27 @@ public class GameBuilder : MonoBehaviour
     private void CreateControllers()
     {
         GameObject container = new GameObject("Controllers");
-        GameObject inputController = Instantiate(new GameObject("InputController"), container.transform);
+        GameObject inputController = new GameObject("InputController");
         inputController.AddComponent<InputController>().Init();
-        GameObject playerMovement = Instantiate(new GameObject("PlayerMovementController"), container.transform);
+        inputController.transform.SetParent(container.transform);
+        GameObject playerMovement = new GameObject("PlayerMovementController");
         playerMovement.AddComponent<PlayerMovement>().Init(inputController.GetComponent<InputController>());
-        GameObject gameController = Instantiate(new GameObject("Game Controller"), container.transform);
+        playerMovement.transform.SetParent(container.transform);
+        GameObject gameController = new GameObject("Game Controller");
         GameController gameControllerScript = gameController.AddComponent<GameController>();
+        gameController.transform.SetParent(container.transform);
         gameControllerScript.TimeGame = _levelDescriptor.LevelTime;
     }
 
     private void CreateSpawners()
     {
         GameObject container = new GameObject("Spawners");
-        GameObject foodSpawner = Instantiate(new GameObject("FoodSpawner"), container.transform);
-        foodSpawner.AddComponent<FoodSpawner>().Init(_levelDescriptor.FoodDescriptors, this);
-        GameObject enemySpawner = Instantiate(new GameObject("EnemySpawner"), container.transform);
-        enemySpawner.AddComponent<EnemySpawner>().Init(_levelDescriptor.EnemiesDescriptors, this);
+        GameObject foodSpawner = new GameObject("FoodSpawner");
+        foodSpawner.transform.SetParent(container.transform);
+        foodSpawner.AddComponent<FoodSpawner>().Init(_levelDescriptor.FoodDescriptors);
+        GameObject enemySpawner = new GameObject("EnemySpawner");
+        enemySpawner.transform.SetParent(container.transform);
+        enemySpawner.AddComponent<EnemySpawner>().Init(_levelDescriptor.EnemiesDescriptors);
     }
 
     public Vector3 GetRandomWalkablePoint()
